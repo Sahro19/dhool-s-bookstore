@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA1lAHFvXwhXZJpupBZNHb+vZQw8Wx5En1I2H2L77Z6Z72sEefhTu3mo4a1qE8" crossorigin="anonymous">
+    <style>
+        .hero {
+            background: url('book.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .hero h1 {
+            font-size: 4rem;
+        }
+        .footer {
+            background: #333;
+            color: white;
+            padding: 20px 0;
+        }
+        .footer a {
+            color: #f8d210;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Bookstore</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#categories">Categories</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#bestsellers">Bestsellers</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#reviews">Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#offers">Offers</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#events">Events</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#team">Our Team</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div id="hero" class="hero">
+        <div class="text-center">
+            <h1>Welcome to Dhool's Bookstore</h1>
+            <p class="lead">Find your next favorite book today!</p>
+            <button class="btn btn-danger">Visite now</button>
+        </div>
+    </div>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">About Us</h2>
+            <p class="text-center">We offer a curated selection of books across various genres to cater to all readers. Visit us to explore the world of knowledge and imagination!</p>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="py-5 bg-info">
+        <div class="container">
+            <h2 class="text-center">Categories</h2>
+            <div class="row text-center mt-4">
+                <div class="col-md-4">
+                    <img src="fictn.jpg" class="img-fluid"  style="border-radius: 35px;" alt="">
+                    <h4>Fiction</h4>
+                    <p>Immerse yourself in captivating stories.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="non.jpg" class="img-fluid" style="border-radius: 35px;" alt="">
+                    <h4>Non-Fiction</h4>
+                    <p>Learn and grow with our diverse range of non-fiction books.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="child.jpg" class="img-fluid" style="border-radius: 35px;" alt="">
+                    <h4>Children's Books</h4>
+                    <p>Inspire young minds with creative stories.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bestsellers Section -->
+    <section id="bestsellers" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Bestsellers</h2>
+            <div class="row mt-4">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="bok1.jpg" class="card-img-top" alt="Bestseller">
+                        <div class="card-body">
+                            <strong><h5 class="card-title">Unlimited Power</h5></strong>
+                            <p>$20 <mark> <del>$30</del> </mark></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="bok2.jpg" class="card-img-top" alt="Bestseller">
+                        <div class="card-body">
+                            <h5 class="card-title">The Spring Fashion</h5>
+                            <p>$15 <mark> <del>$25</del> </mark>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more cards as needed -->
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="book3.jpg" class="card-img-top" alt="Bestseller">
+                        <div class="card-body">
+                            <h5 class="card-title">Kinfolk</h5>
+                            <p>$18 <mark> <del>$30</del> </mark>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="bk4.jpg" class="card-img-top" alt="Bestseller">
+                        <div class="card-body">
+                            <h5 class="card-title">ur silence won't protct u</h5>
+                            <p>$15 <mark> <del>$32</del> </mark>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="py-5 bg-secondary">
+        <div class="container text-center border-radius:35px;">
+            <h2 class="text-center">Customer Reviews</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="p-4 border rounded">
+                   
+                    <img src="pic1.jpg" class="rounded" height="200px"  alt="">
+                    <p>"I really liked it, i will read again and again!"</p>
+                    <h2>Aloow Abdi</h2>
+                </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-4 border rounded">
+                   
+                    <img src="hassann - Copy.webp" class="rounded" height="200px" alt="">
+                    <p>"I have really enjoyed them,they're execellent!"</p>
+                    <h2>M Hassan</h2>
+                </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-4 border rounded">
+                   
+                    <img src="harvy.jpeg" class="rounded" height="200px"  alt="">
+                    <p>"Amazing collection! Highly recommended."</p>
+                    <h2>Steve Harvey</h2>
+                </div>
+                </div>
+            </div>
+        </div>
+     </section>
+         
+    
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Gallery</h2>
+            <div class="row g-3 mt-4">
+                <div class="col-md-4">
+                    <img src="gl.jpg" alt="Gallery" class="img-fluid rounded">
+                </div>
+                <div class="col-md-4">
+                    <img src="gl2.jpg" alt="Gallery" class="img-fluid rounded">
+                </div>
+                <div class="col-md-4">
+                    <img src="gl3.jpg" alt="Gallery" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offers Section -->
+    <section id="offers" class="py-5 bg-success" >
+        <div class="container">
+            <h2 class="text-center">Special Offers</h2>
+            <p class="text-center">Get 20% off on all fiction books this weekend!</p>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Events</h2>
+            <p class="text-center">Join our book reading sessions every Friday at 6 PM.</p>
+        </div>
+    </section>
+
+    <!-- Our Team Section -->
+    <section id="team" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Our Team</h2>
+            <p class="text-center">Meet the passionate people behind our bookstore.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-secondary">
+        <div class="container">
+            <h2 class="text-center">Contact Us</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p>&copy; 2024 Bookstore. All Rights Reserved.</p>
+            <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a>
+        </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
